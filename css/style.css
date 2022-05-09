@@ -1,0 +1,199 @@
+@font-face {
+   font-family: 'BYekan';
+   src: url("../fonts/BYekan.eot")
+}
+@font-face {
+   font-family: 'BYekan';
+   src: url("../fonts/BYekan.ttf")
+}
+@font-face {
+   font-family: 'BYekan';
+   src: url("../fonts/BYekan.woff")
+}
+@keyframes example{
+0% {
+    transform: rotate(
+0deg
+);
+    left: 0px;
+}
+
+25% {
+    transform: rotate(
+20deg
+);
+    left: 0px;
+}
+50% {
+    transform: rotate(
+0deg
+);
+    left: 500px;
+}
+55% {
+    transform: rotate(
+0deg
+);
+    left: 500px;
+}
+70% {
+    transform: rotate(
+0deg
+);
+    left: 500px;
+  
+}
+100% {
+    transform: rotate(
+-360deg
+);
+    left: 0px;
+}
+}
+body {
+   font-family: 'BYekan';
+}
+/*------login---------*/
+#bodyy {
+   background-color: #F0F4F7;
+}
+.logo {
+
+   /*margin:20px 645px 0px 0px;*/
+   width: 100%;
+   height: 150px;
+    animation-name: example;
+   animation-duration: 2s;
+}
+.logoo {
+   margin-right: auto;
+   margin-left: auto;
+}
+.login_logo {
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 80px;
+   /*margin: 50px 0px 0px 633px;*/
+   border-color: #00AB6D;
+   border-radius: 5px;
+   border-style: solid;
+   border-width: 5px;
+   border-collapse: separate;
+   border-spacing: 15px;
+   padding: 5px;
+}
+
+.matn11 {
+   font-style: normal;
+   margin-right: auto;
+   margin-left: auto;
+   height: 42px;
+   width: 222px;
+}
+.matn1 {
+   /*margin: 0px -60px 0px 0px; */
+   font-size: 30px;
+   color: #00AB6D;
+}
+.login-box {
+   font-style: normal;
+   border: none;
+   border-collapse: collapse;
+   border-radius: 10px;
+   width: 300px;
+   height: 330px;
+   background-color: #FFFFFF;
+   margin-right: auto;
+   margin-left: auto;
+   /*margin: 50px 545px 0px 0px; */
+}
+input {
+   text-align: center
+}
+.userdiv {
+   width: 300px;
+   height: 100px;
+   border-radius: 5px;
+}
+.userbox {
+   width: 250px;
+   border: none;
+   font-size: 20px;
+   margin: 20px 24px 0px 22px;
+   height: 30px;
+   border-radius: 5px;
+   box-shadow: 1px 1px 3px #000;
+}
+/*text-align-placeholder*/ ::-webkit-input-placeholder {
+   text-align: center;
+   color: #C7C7C7;
+}
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+   color: #C7C7C7;
+}
+::-moz-placeholder { /* Firefox 19+ */
+   text-align: center;
+   color: #C7C7C7;
+}
+:-ms-input-placeholder {
+   text-align: center;
+   color: #C7C7C7;
+}
+/*END-text-align-placeholder*/
+.password {
+   width: 250px;
+   border: none;
+   font-size: 20px;
+   margin: 20px 24px 0px 22px;
+   height: 30px;
+   border-radius: 5px;
+   box-shadow: 1px 1px 3px #000;
+}
+.voroud {
+     background-color:#62B76B;
+
+  
+  transition: 0.3s;
+  
+   color: #fff;
+   border: none;
+   width: 250px;
+   font-size: 20px;
+   margin: 20px 24px 0px 22px;
+   height: 32px;
+   border-radius: 5px;
+   box-shadow: 1px 1px 3px #000;
+}
+.copyright {
+   margin-top: 20px;
+   margin-right: auto;
+   margin-left: auto;
+   width: 322px;
+   font-style: italic;
+}
+/*------END-login---------*/
+.matn2{
+    font-weight: bold;
+    
+  width: 498px;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+}
+.btn {
+  background-color:#00ED97;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.voroud:hover {
+  background-color: #00AB6D;
+  color: white;
+}
